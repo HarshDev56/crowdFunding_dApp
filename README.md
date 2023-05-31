@@ -1,7 +1,7 @@
-## CrowdFundIt The CrowdFunding dApp
+# CrowdFundIt The CrowdFunding dApp
 ![thumbnail](https://github.com/HarshDev56/crowdFunding_dApp/assets/87370920/cc1102d6-0905-42ea-a6d6-3a6ddd0c97b0)
 
-# Link to video: https:https://www.youtube.com/watch?v=grSx6y1PfoY
+## Link to video: https:https://www.youtube.com/watch?v=grSx6y1PfoY
 
 ## Inspiration
 CrowdFundIt is a decentralized crowdfunding application that allows users to raise funds for their projects without the need for a middleman. The inspiration for CrowdFundIt came from the frustration of seeing so many great projects fail due to a lack of funding. i believe that CrowdFundIt can help to level the playing field and give everyone a chance to make their dreams a reality.
