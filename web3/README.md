@@ -19,6 +19,7 @@
 ```
 git clone https://github.com/HarshDev56/crowdFunding_dApp.git
 cd crowdFunding_dApp
+cd web3
 yarn
 ```
 
