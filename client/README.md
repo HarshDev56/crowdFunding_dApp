@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# React CrowdFunding dApp
+![thumbnail](https://github.com/HarshDev56/crowdFunding_dApp/assets/87370920/42156d1e-a705-4aea-b0bb-3d86ff77b953)
+Built with ❤️ using: 
+* ReactJS
+* Moralis
+* web3uikit
+* Ethers
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirements
 
-## Available Scripts
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [Nodejs](https://nodejs.org/en/)
+  - You'll know you've installed nodejs right if you can run:
+    - `node --version` and get an ouput like: `vx.x.x`
+- [Yarn](https://yarnpkg.com/getting-started/install) instead of `npm`
+  - You'll know you've installed yarn right if you can run:
+    - `yarn --version` and get an output like: `x.x.x`
+    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
 
-In the project directory, you can run:
+## Quickstart
 
-### `yarn start`
+```
+git clone https://github.com/HarshDev56/crowdFunding_dApp.git
+cd crowdFunding_dApp
+cd client
+yarn
+```
+# Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Run your local blockchain with the lottery code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> In a different terminal / command line
 
-### `yarn test`
+```
+git clone https://github.com/HarshDev56/crowdFunding_dApp.git
+cd crowdFunding_dApp
+cd web3
+yarn
+yarn hardhat node
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> You can read more about how to use that repo from its [README.md](https://github.com/HarshDev56/crowdFunding_dApp/blob/master/web3/README.md)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Add hardhat network to your metamask/wallet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Get the RPC_URL of your hh node (usually `http://127.0.0.1:8545/`)
+- Go to your wallet and add a new network. [See instructions here.](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
+  - Network Name: Hardhat-Localhost
+  - New RPC URL: http://127.0.0.1:8545/
+  - Chain ID: 31337
+  - Currency Symbol: ETH (or GO)
+  - Block Explorer URL: None
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ideally, you'd then [import one of the accounts](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account) from hardhat to your wallet/metamask. 
 
-### `yarn eject`
+3. Run this code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Back in a different terminal with the code from this repo, run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Go to UI and have fun!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Head over to your [localhost](http://localhost:3000) and play with the UI!
+# Thank you!
+If you appreciated this, feel free to follow me
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/HarshDev56)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-fichadiya-62a4901b3)
